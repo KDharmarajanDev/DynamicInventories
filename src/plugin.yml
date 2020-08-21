@@ -1,0 +1,7 @@
+name: DynamicInventories
+version: 0.1
+author: Mathematician
+main: com.Mathematician.DynamicInventories.DynamicInventoriesMain
+api-version: 1.12.2
+commands:
+
