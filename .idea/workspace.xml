@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb90a7e-f86a-4ada-b688-bc9fdd50ca96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Mathematician/DynamicInventories/dynamicinventories/DynamicInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Mathematician/DynamicInventories/dynamicinventories/generators/RandomGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Mathematician/DynamicInventories/dynamicinventories/generators/SequentialGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot_1_12_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Mathematician/DynamicInventories/dynamicinventories/itemstates/ItemState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicInventories.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicInventories.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Mathematician/DynamicInventories/DynamicInventoriesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Mathematician/DynamicInventories/DynamicInventoriesMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Mathematician/DynamicInventories/dynamicinventories/generators/SequentialGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Mathematician/DynamicInventories/dynamicinventories/generators/SequentialGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
