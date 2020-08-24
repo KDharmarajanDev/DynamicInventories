@@ -26,11 +26,10 @@ public class ItemState {
     }
 
     /**
-     * This is a getter that sets item.
+     * This is a setter that sets item (the ItemStack).
      * @param item - an ItemStack that will be shown in the DynamicInventory when this state is displayed
      */
     public void setItem(ItemStack item){
         this.item = item;
     }
-
 }
