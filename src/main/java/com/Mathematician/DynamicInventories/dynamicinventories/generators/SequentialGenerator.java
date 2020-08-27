@@ -27,7 +27,7 @@ public class SequentialGenerator {
     private long lastStartTime;
 
     /**
-     * This is the only constructor for the ItemState.
+     * This is the only constructor for the SequentialGenerator.
      * @param itemStates - an ArrayList of ItemState that represents all possible ItemStates that could be displayed
      * @param slotNumber - an integer that represents the slot in the DynamicInventory that this sequence is displayed.
      */
