@@ -98,6 +98,6 @@ public class SequentialGenerator {
      * @return shouldGoToNextState - a boolean that determines if the SequentialGenerator should advance states based on duration
      */
     public boolean shouldGoToNextState(){
-        return itemStates.size() > 0 && getCurrentState().getDuration() + lastStartTime < System.currentTimeMillis();
+        return itemStates.size() > 0 && getCurrentState().getDuration() != -1 && getCurrentState().getDuration() + lastStartTime < System.currentTimeMillis();
     }
 }
