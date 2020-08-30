@@ -8,23 +8,20 @@ public class RandomGenerator extends SequentialGenerator {
 
     /**
      * This is the only constructor for the RandomGenerator.
-     *
      * @param itemStates - an ArrayList of ItemState that represents all possible ItemStates that could be displayed
      * @param slotNumber - an integer that represents the slot in the DynamicInventory that this sequence is displayed.
+     * @param listener - an OnItemStateChangeListener that gets called when the current ItemState changes.
+     * @param shouldStart - a boolean that represents if the SequentialGenerator should start changing the ItemStates
      */
-    public RandomGenerator(ArrayList<ItemState> itemStates, int slotNumber) {
-        super(itemStates, slotNumber);
+    public RandomGenerator(ArrayList<ItemState> itemStates, int slotNumber, OnItemStateChangeListener listener, boolean shouldStart) {
+        super(itemStates, slotNumber, listener, shouldStart);
     }
 
     /**
-     * This is a getter that returns a random ItemState of this RandomGenerator.
-     * @return currentState - an ItemState that is the random selection of the RandomGenerator.
+     * This method randomly selects an ItemState and sets it to be the current ItemState.
      */
     @Override
-    public ItemState getCurrentState(){
-        if(super.getItemStates().size() == 0){
-            return null;
-        }
-        return super.getItemStates().get((int) (Math.random() * super.getItemStates().size()));
+    public void goToNextState(){
+        super.setCurrentIndex((int) (Math.random() * super.getItemStates().size()));
     }
 }
